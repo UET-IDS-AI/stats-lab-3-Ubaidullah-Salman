@@ -15,7 +15,7 @@ def card_experiment():
     P_B_given_A = 3 / 51
     P_AB = P_A * P_B_given_A
     
-    # ---------- SIMULATION ----------
+    # ---------- SIMULATION ---------
     
     rng = np.random.default_rng(42)
     trials = 200_000
